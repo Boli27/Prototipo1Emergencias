@@ -12,8 +12,8 @@ using Prototipo1.Context;
 namespace Prototipo1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250602004610_TiemposReporte")]
-    partial class TiemposReporte
+    [Migration("20250602173715_TiempoReporte")]
+    partial class TiempoReporte
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace Prototipo1.Migrations
 {
     /// <inheritdoc />
-    public partial class ActualizacionModeloRoles : Migration
+    public partial class TiempoReporte : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -67,7 +68,15 @@ namespace Prototipo1.Migrations
                     IdUsuarioBrigadista = table.Column<int>(type: "int", nullable: true),
                     IdUbicacion = table.Column<int>(type: "int", nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaCreacion = table.Column<DateOnly>(type: "date", nullable: false),
+                    HoraCrecacion = table.Column<TimeOnly>(type: "time", nullable: false),
+                    FechaCancelacion = table.Column<DateOnly>(type: "date", nullable: false),
+                    HoraCancelacion = table.Column<TimeOnly>(type: "time", nullable: false),
+                    FechaAceptado = table.Column<DateOnly>(type: "date", nullable: false),
+                    HoraAceptado = table.Column<TimeOnly>(type: "time", nullable: false),
+                    FechaFinalizacion = table.Column<DateOnly>(type: "date", nullable: false),
+                    HoraFinalizacion = table.Column<TimeOnly>(type: "time", nullable: false)
                 },
                 constraints: table =>
                 {

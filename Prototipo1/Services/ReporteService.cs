@@ -114,8 +114,8 @@ namespace Prototipo1.Services
             // Cambia el estado a "Cancelado" y guarda cambios
             var now = DateTime.Now;
             reporte.Estado = "Cancelado";
-            reporte.FechaCreacion = DateOnly.FromDateTime(now);
-            reporte.HoraCrecacion = TimeOnly.FromDateTime(now);
+            reporte.FechaCancelacion = DateOnly.FromDateTime(now);
+            reporte.HoraCancelacion = TimeOnly.FromDateTime(now);
             await _context.SaveChangesAsync();
 
             return true;

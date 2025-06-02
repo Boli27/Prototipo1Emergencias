@@ -43,12 +43,11 @@ namespace Prototipo1.Services
             if (reporte == null || reporte.IdUsuario == idBrigadista)
                 return false;
 
-            
+            var now = DateTime.Now;
             reporte.IdUsuarioBrigadista = idBrigadista;
             reporte.Estado = "En proceso";
-            var now = DateTime.Now;
-            reporte.FechaCreacion = DateOnly.FromDateTime(now);
-            reporte.HoraCrecacion = TimeOnly.FromDateTime(now);
+            reporte.FechaAceptado = DateOnly.FromDateTime(now);
+            reporte.HoraAceptado = TimeOnly.FromDateTime(now);
 
             await _context.SaveChangesAsync();
             return true;
@@ -68,8 +67,8 @@ namespace Prototipo1.Services
 
             var now = DateTime.Now;
             reporte.Estado = "Finalizado";
-            reporte.FechaCreacion = DateOnly.FromDateTime(now);
-            reporte.HoraCrecacion = TimeOnly.FromDateTime(now);
+            reporte.FechaFinalizacion = DateOnly.FromDateTime(now);
+            reporte.HoraFinalizacion = TimeOnly.FromDateTime(now);
             await _context.SaveChangesAsync();
             return true;
         }
