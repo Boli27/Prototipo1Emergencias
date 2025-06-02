@@ -26,21 +26,21 @@ namespace Prototipo1.Models
 
         // Tiempos de cancelacion
         [DataType(DataType.Date)]
-        public DateOnly? FechaCancelacion { get; set; }
+        public DateOnly FechaCancelacion { get; set; }
         [DataType(DataType.Time)]
-        public TimeOnly? HoraCancelacion { get; set; }
+        public TimeOnly HoraCancelacion { get; set; }
 
         // Tiempos de aceptacion
         [DataType(DataType.Date)]
-        public DateOnly? FechaAceptado { get; set; }
+        public DateOnly FechaAceptado { get; set; }
         [DataType(DataType.Time)]
-        public TimeOnly? HoraAceptado { get; set; }
+        public TimeOnly HoraAceptado { get; set; }
 
         // Tiempos de finalizacion
         [DataType(DataType.Date)]
-        public DateOnly? FechaFinalizacion { get; set; }
+        public DateOnly FechaFinalizacion { get; set; }
         [DataType(DataType.Time)]
-        public TimeOnly? HoraFinalizacion { get; set; }
+        public TimeOnly HoraFinalizacion { get; set; }
 
 
         // Relaciones

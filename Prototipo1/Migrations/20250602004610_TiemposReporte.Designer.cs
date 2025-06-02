@@ -12,7 +12,7 @@ using Prototipo1.Context;
 namespace Prototipo1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250602001151_TiemposReporte")]
+    [Migration("20250602004610_TiemposReporte")]
     partial class TiemposReporte
     {
         /// <inheritdoc />
@@ -61,28 +61,28 @@ namespace Prototipo1.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateOnly?>("FechaAceptado")
+                    b.Property<DateOnly>("FechaAceptado")
                         .HasColumnType("date");
 
-                    b.Property<DateOnly?>("FechaCancelacion")
+                    b.Property<DateOnly>("FechaCancelacion")
                         .HasColumnType("date");
 
                     b.Property<DateOnly>("FechaCreacion")
                         .HasColumnType("date");
 
-                    b.Property<DateOnly?>("FechaFinalizacion")
+                    b.Property<DateOnly>("FechaFinalizacion")
                         .HasColumnType("date");
 
-                    b.Property<TimeOnly?>("HoraAceptado")
+                    b.Property<TimeOnly>("HoraAceptado")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly?>("HoraCancelacion")
+                    b.Property<TimeOnly>("HoraCancelacion")
                         .HasColumnType("time");
 
                     b.Property<TimeOnly>("HoraCrecacion")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly?>("HoraFinalizacion")
+                    b.Property<TimeOnly>("HoraFinalizacion")
                         .HasColumnType("time");
 
                     b.Property<int>("IdUbicacion")

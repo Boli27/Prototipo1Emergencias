@@ -28,7 +28,9 @@ namespace Prototipo1.Services
                         Nombre = r.Ubicacion.Nombre
                     },
                     Descripcion = r.Descripcion,
-                    Estado = r.Estado
+                    Estado = r.Estado,
+                    HoraCreacion = r.HoraCrecacion,
+                    FechaCreacion = r.FechaCreacion
                 }).ToListAsync();
         }
 
@@ -86,7 +88,9 @@ namespace Prototipo1.Services
                         Nombre = r.Ubicacion.Nombre
                     },
                     Descripcion = r.Descripcion,
-                    Estado = r.Estado
+                    Estado = r.Estado,
+                    HoraCreacion = r.HoraCrecacion,
+                    FechaCreacion = r.FechaCreacion
                 }).ToListAsync();
         }
     }
