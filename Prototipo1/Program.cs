@@ -83,11 +83,24 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("EsBrigadista", policy =>
         policy.RequireClaim("esBrigadista", "true"));
 });
-builder.Services.AddControllers();
+
+// *START CORS Configuration*
+// Define a CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        policy =>
+        {
+            policy.AllowAnyOrigin() // Allows any origin
+                  .AllowAnyMethod()  // Allows any HTTP method (GET, POST, PUT, DELETE, etc.)
+                  .AllowAnyHeader(); // Allows any HTTP headers
+        });
+});
+// *END CORS Configuration*
+
+builder.Services.AddControllers(); // This was duplicated, removed one instance
 
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -97,6 +110,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// *START Use CORS Middleware*
+// IMPORTANT: Place UseCors before UseAuthentication and UseAuthorization
+app.UseCors("AllowAllOrigins");
+// *END Use CORS Middleware*
 
 app.UseAuthentication();
 

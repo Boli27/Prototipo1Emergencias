@@ -26,13 +26,16 @@ namespace Prototipo1.Services
             if (cantidadPendientes >= 1)
                 return null;
 
+            var now = DateTime.Now;
             // Crea el objeto Reporte
             var reporte = new Reporte
             {
                 IdUsuario = idUsuario,
                 IdUbicacion = dto.IdUbicacion,
                 Descripcion = dto.Descripcion,
-                Estado = "Pendiente" // Estado inicial
+                Estado = "Pendiente", // Estado inicial
+                FechaCreacion = DateOnly.FromDateTime(now),
+                HoraCrecacion = TimeOnly.FromDateTime(now)
             };
 
             // Agrega el nuevo reporte al contexto y guarda en la base de datos
@@ -59,7 +62,10 @@ namespace Prototipo1.Services
                         Salon = r.Ubicacion.Salon
                     },
                     Descripcion = r.Descripcion,
-                    Estado = r.Estado
+                    Estado = r.Estado,
+                    HoraCreacion = r.HoraCrecacion,
+                    FechaCreacion = r.FechaCreacion
+
                 }).ToListAsync();
         }
 
@@ -88,7 +94,9 @@ namespace Prototipo1.Services
                 },
                 Descripcion = reporte.Descripcion,
                 Estado = reporte.Estado,
-                BrigadistaCorreo = reporte.UsuarioBrigadista?.CorreoInstitucional
+                BrigadistaCorreo = reporte.UsuarioBrigadista?.CorreoInstitucional,
+                HoraCreacion = reporte.HoraCrecacion,
+                FechaCreacion = reporte.FechaCreacion
             };
         }
 
@@ -104,7 +112,10 @@ namespace Prototipo1.Services
                 return false;
 
             // Cambia el estado a "Cancelado" y guarda cambios
+            var now = DateTime.Now;
             reporte.Estado = "Cancelado";
+            reporte.FechaCreacion = DateOnly.FromDateTime(now);
+            reporte.HoraCrecacion = TimeOnly.FromDateTime(now);
             await _context.SaveChangesAsync();
 
             return true;

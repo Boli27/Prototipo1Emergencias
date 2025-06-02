@@ -9,6 +9,8 @@ namespace Prototipo1.DTOs.Reportes
         public string Descripcion { get; set; } = string.Empty;
         public string Estado { get; set; } = string.Empty;
         public string? BrigadistaCorreo { get; set; }
+        public DateOnly FechaCreacion { get; set; }
+        public TimeOnly HoraCreacion { get; set; }
     }
 }
     

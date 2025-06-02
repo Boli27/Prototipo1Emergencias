@@ -18,6 +18,31 @@ namespace Prototipo1.Models
         public string? Estado { get; set; }
         public required string Descripcion { get; set; }
 
+        // Tiempo de creacion
+        [DataType(DataType.Date)]
+        public DateOnly FechaCreacion { get; set; }
+        [DataType(DataType.Time)]
+        public TimeOnly HoraCrecacion { get; set; }
+
+        // Tiempos de cancelacion
+        [DataType(DataType.Date)]
+        public DateOnly? FechaCancelacion { get; set; }
+        [DataType(DataType.Time)]
+        public TimeOnly? HoraCancelacion { get; set; }
+
+        // Tiempos de aceptacion
+        [DataType(DataType.Date)]
+        public DateOnly? FechaAceptado { get; set; }
+        [DataType(DataType.Time)]
+        public TimeOnly? HoraAceptado { get; set; }
+
+        // Tiempos de finalizacion
+        [DataType(DataType.Date)]
+        public DateOnly? FechaFinalizacion { get; set; }
+        [DataType(DataType.Time)]
+        public TimeOnly? HoraFinalizacion { get; set; }
+
+
         // Relaciones
         public Usuario Usuario { get; set; }              // Quien reporta
         public Usuario UsuarioBrigadista { get; set; }    // Quien atiende

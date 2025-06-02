@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\migrations\\20250602001151_tiemposreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\migrations\\20250602001151_tiemposreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\services\\brigadistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\brigadistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\dtos\\reportes\\detallereportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\dtos\\reportes\\detallereportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\dtos\\reportes\\reporteresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\dtos\\reportes\\reporteresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\dtos\\auths\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\ubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\services\\brigadistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\services\\brigadistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\dtos\\ubicaciones\\ubicaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\dtos\\ubicaciones\\ubicaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|e:\\proyectogrado\\prototipo\\prototipo1\\prototipo1\\dtos\\reportes\\detallereportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B328A61E-B4B7-4CCA-90E7-703E65B745DB}|Prototipo1\\Prototipo1.csproj|solutionrelative:prototipo1\\dtos\\reportes\\detallereportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,31 +79,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Prototipo1\\Services\\AuthService.cs",
-              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\AuthService.cs",
-              "RelativeToolTip": "Prototipo1\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "20250602001151_TiemposReporte.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Migrations\\20250602001151_TiemposReporte.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Migrations\\20250602001151_TiemposReporte.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Migrations\\20250602001151_TiemposReporte.cs",
+              "RelativeToolTip": "Prototipo1\\Migrations\\20250602001151_TiemposReporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:36:53.396Z",
+              "WhenOpened": "2025-06-02T00:11:52.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReporteResumenDto.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\ReporteResumenDto.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Reportes\\ReporteResumenDto.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\ReporteResumenDto.cs",
+              "RelativeToolTip": "Prototipo1\\DTOs\\Reportes\\ReporteResumenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:50:44.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\ReporteService.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Services\\ReporteService.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\ReporteService.cs",
+              "RelativeToolTip": "Prototipo1\\Services\\ReporteService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:48:21.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Models\\Reporte.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Models\\Reporte.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Models\\Reporte.cs",
+              "RelativeToolTip": "Prototipo1\\Models\\Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:43:35.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Program.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Program.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Program.cs",
+              "RelativeToolTip": "Prototipo1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:41:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleReporteDto.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
+              "RelativeToolTip": "Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T21:27:01.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
-              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
-              "RelativeToolTip": "Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BrigadistaService.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\BrigadistaService.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Services\\BrigadistaService.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\BrigadistaService.cs",
+              "RelativeToolTip": "Prototipo1\\Services\\BrigadistaService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:36:41.37Z"
+              "WhenOpened": "2025-05-24T22:03:27.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Auths\\LoginDto.cs",
               "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Auths\\LoginDto.cs",
@@ -99,19 +181,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Prototipo1\\Models\\Usuario.cs",
-              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Models\\Usuario.cs",
-              "RelativeToolTip": "Prototipo1\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
+              "RelativeToolTip": "Prototipo1\\DTOs\\Auths\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:15:09.664Z"
+              "WhenOpened": "2025-05-25T18:36:41.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Prototipo1\\Services\\AuthService.cs",
+              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\AuthService.cs",
+              "RelativeToolTip": "Prototipo1\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:36:53.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Helpers\\JwtHelper.cs",
               "RelativeDocumentMoniker": "Prototipo1\\Helpers\\JwtHelper.cs",
@@ -123,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "UbicacionService.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\UbicacionService.cs",
               "RelativeDocumentMoniker": "Prototipo1\\Services\\UbicacionService.cs",
@@ -135,19 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BrigadistaService.cs",
-              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\BrigadistaService.cs",
-              "RelativeDocumentMoniker": "Prototipo1\\Services\\BrigadistaService.cs",
-              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Services\\BrigadistaService.cs",
-              "RelativeToolTip": "Prototipo1\\Services\\BrigadistaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:03:27.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ReporteResumenUbiDto.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Ubicaciones\\ReporteResumenUbiDto.cs",
               "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Ubicaciones\\ReporteResumenUbiDto.cs",
@@ -159,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "UbicacionDto.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Ubicaciones\\UbicacionDto.cs",
               "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Ubicaciones\\UbicacionDto.cs",
@@ -171,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ReportesController.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Controllers\\ReportesController.cs",
               "RelativeDocumentMoniker": "Prototipo1\\Controllers\\ReportesController.cs",
@@ -183,19 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DetalleReporteDto.cs",
-              "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
-              "RelativeDocumentMoniker": "Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
-              "ToolTip": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
-              "RelativeToolTip": "Prototipo1\\DTOs\\Reportes\\DetalleReporteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T21:27:01.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UbicacionesController.cs",
               "DocumentMoniker": "E:\\ProyectoGrado\\Prototipo\\Prototipo1\\Prototipo1\\Controllers\\UbicacionesController.cs",
               "RelativeDocumentMoniker": "Prototipo1\\Controllers\\UbicacionesController.cs",
